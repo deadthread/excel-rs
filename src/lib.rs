@@ -5,6 +5,8 @@ use minidom::Element;
 use zip::{read::ZipFile, ZipArchive};
 
 mod error;
+mod ns;
+mod element;
 
 pub struct WorkBook<SR>(ZipArchive<SR>);
 
